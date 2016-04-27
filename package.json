@@ -1,7 +1,7 @@
 {
   "name": "kingsroad",
   "version": "0.1.0",
-  "description": "CUSTOM Theme based on Foundation.",
+  "description": "Customizing theme using the Foundation.",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint:style"
@@ -10,8 +10,10 @@
     "type": "git",
     "url": "git+ssh://git@github.com/interestic/kingsroad.git"
   },
-  "keywords": [],
-  "author": "rayfields <raysbacker@gmail.com>",
+  "keywords": ["html", "css", "foundation"],
+  "author": [
+    "rayfields <komeda@hivelocity.co.jp>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/interestic/kingsroad/issues"

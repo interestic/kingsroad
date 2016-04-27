@@ -1,0 +1,31 @@
+{
+  "name": "kingsroad",
+  "description": "Customizing theme using the Foundation.",
+  "version": "0.1.0",
+  "main": [
+    "css/kingsroad.css"
+  ],
+  "moduleType": "globals",
+  "license": "MIT",
+  "ignore": [
+    ".gitignore",
+    "gulpfile.js",
+    "src",
+    "*/.*",
+    "*.json",
+    "*.md",
+    "test"
+  ],
+  "keywords": ["html", "css", "foundation"],
+  "authors": [
+    "rayfields <komeda@hivelocity.co.jp>"
+  ],
+  "homepage": "https://gitlab.hivelocity.co.jp/adminize/adminize",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/interestic/kingsroad.git"
+  },
+  "dependencies": {
+    "foundation-sites": ">=6.2.1"
+  }
+}
