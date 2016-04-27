@@ -4,7 +4,7 @@
   "description": "CUSTOM Theme based on Foundation.",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "lint": "gulp lint:style"
   },
   "repository": {
     "type": "git",
