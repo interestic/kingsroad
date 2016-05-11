@@ -4,13 +4,18 @@
   "description": "Customizing theme using the Foundation.",
   "main": "index.js",
   "scripts": {
-    "lint": "gulp lint:style"
+    "lint": "gulp lint:style",
+    "deploy": "./scripts/deploy.sh"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/interestic/kingsroad.git"
   },
-  "keywords": ["html", "css", "foundation"],
+  "keywords": [
+    "html",
+    "css",
+    "foundation"
+  ],
   "author": [
     "rayfields <komeda@hivelocity.co.jp>"
   ],
@@ -30,6 +35,7 @@
     "gulp-sass": "^2.3.1",
     "gulp-scss-lint": "^0.3.9",
     "gulp-sourcemaps": "^2.0.0-alpha",
-    "gulp-watch": "^4.3.5"
+    "gulp-watch": "^4.3.5",
+    "harp": "^0.20.3"
   }
 }
