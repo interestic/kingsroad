@@ -1,6 +1,7 @@
 doctype
 html
   head
-    link(rel="stylesheet" href="./main.css")
+    != partial("_includes/_head-include")
   body
+    != partial("_includes/_top-bar")
     != yield

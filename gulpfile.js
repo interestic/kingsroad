@@ -31,7 +31,8 @@ gulp.task('style', () => {
     .pipe($.sass())
     .pipe($.autoprefixer(config.style.prefix))
     .pipe($.sourcemaps.write('.', config.style.map))
-    .pipe(gulp.dest('css'));
+    .pipe(gulp.dest('css'))
+    .pipe(gulp.dest('docs/css'));
 });
 
 gulp.task('minify:style', () => {
@@ -43,7 +44,8 @@ gulp.task('minify:style', () => {
     .pipe($.cssnano())
     .pipe($.rename({ suffix: '.min' }))
     .pipe($.sourcemaps.write('.', config.style.map))
-    .pipe(gulp.dest('css'));
+    .pipe(gulp.dest('css'))
+    .pipe(gulp.dest('docs/css'));
 });
 
 gulp.task('lint:style', () => {
@@ -51,11 +53,9 @@ gulp.task('lint:style', () => {
     .pipe($.scssLint(config.style.lint));
 });
 
-gulp.task('style:all', ['style', 'lint:style', 'minify:style'])
-
 gulp.task('watch', () => {
   $.watch(config.style.src, () => {
-    gulp.start(['style:all']);
+    gulp.start(['style']);
   });
 });
 
