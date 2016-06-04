@@ -3492,13 +3492,13 @@ body {
   padding: 0;
   border-bottom: 1px solid #e6e6e6; }
   .top-bar .menu > li {
-    height: 63px;
-    line-height: 63px; }
+    height: 64px;
+    line-height: 64px; }
     .top-bar .menu > li > a {
       display: block;
       height: 100%;
       padding: 0 20px;
-      line-height: 63px;
+      line-height: 64px;
       color: #000;
       transition: 0.2s all ease-out; }
       .top-bar .menu > li > a:hover {
@@ -3524,7 +3524,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 1.4em;
     font-weight: bold;
-    line-height: 62px;
+    line-height: 63px;
     color: #45b65e;
     letter-spacing: -.03em;
     border-right: 1px solid #e6e6e6;
