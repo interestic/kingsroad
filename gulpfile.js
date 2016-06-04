@@ -2,6 +2,7 @@
 
 let gulp = require('gulp');
 let gulpLoadPlugin = require('gulp-load-plugins');
+let exec = require('child_process').exec;
 let $ = gulpLoadPlugin({
   rename: {
     'gulp-scss-lint': 'scssLint'
@@ -59,4 +60,12 @@ gulp.task('watch', () => {
   });
 });
 
-gulp.task('default', ['watch']);
+gulp.task('docs', () => {
+  exec('./node_modules/.bin/harp server docs --port 8888', (err, stdout, stderr) => {
+    console.log(stdout);
+    console.log(stderr);
+    cb(err);
+  });
+});
+
+gulp.task('default', ['watch', 'docs']);

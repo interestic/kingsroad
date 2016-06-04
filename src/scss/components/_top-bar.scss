@@ -1,25 +1,41 @@
 .top-bar {
+  $line-height: $topbar-height - 1;
   height: $topbar-height;
   padding: 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid $border-color;
   .menu {
     > li {
-      height: $topbar-height - 1;
-      line-height: $topbar-height - 1;
+      height: $line-height;
+      line-height: $line-height;
       > a {
         display: block;
         height: 100%;
-        padding-top: 0;
-        padding-bottom: 0;
-        line-height: $topbar-height - 4;
+        padding: 0 20px;
+        line-height: $line-height;
+        color: $color-black;
+        transition: $transition-hover;
+        &:hover {
+          color: $brand-color;
+        }
       }
     }
+    .user-profile {
+      border-left: 1px solid $border-color;
+    }
   }
-}
-
-.site-name {
-  font-family: $font-family-primary;
-  font-size: 1.3em;
-  font-weight: bold;
-  letter-spacing: -.03em;
+  .menu > li > .site-name {
+    padding: 0 20px;
+    font-family: $font-family-primary;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: $line-height - 2;
+    color: $color-black;
+    letter-spacing: -.03em;
+    border-right: 1px solid $border-color;
+    transition: $transition-hover;
+    &:hover {
+      color: $brand-color;
+      background-color: $tob-bar-hover;
+    }
+  }
 }

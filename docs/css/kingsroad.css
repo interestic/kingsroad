@@ -3485,26 +3485,38 @@ table.hover tr:nth-of-type(even):hover {
   clear: both; }
 
 body {
-  background-color: #f6f6f6; }
+  background-color: #f3f3f3; }
 
 .top-bar {
-  height: 60px;
+  height: 65px;
   padding: 0;
-  border-bottom: 1px solid #eee; }
+  border-bottom: 1px solid #e6e6e6; }
   .top-bar .menu > li {
-    height: 59px;
-    line-height: 59px; }
+    height: 64px;
+    line-height: 64px; }
     .top-bar .menu > li > a {
       display: block;
       height: 100%;
-      padding-top: 0;
-      padding-bottom: 0;
-      line-height: 56px; }
-
-.site-name {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.3em;
-  font-weight: bold;
-  letter-spacing: -.03em; }
+      padding: 0 20px;
+      line-height: 64px;
+      color: #000;
+      transition: 0.2s all ease-out; }
+      .top-bar .menu > li > a:hover {
+        color: #45b65e; }
+  .top-bar .menu .user-profile {
+    border-left: 1px solid #e6e6e6; }
+  .top-bar .menu > li > .site-name {
+    padding: 0 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 62px;
+    color: #000;
+    letter-spacing: -.03em;
+    border-right: 1px solid #e6e6e6;
+    transition: 0.2s all ease-out; }
+    .top-bar .menu > li > .site-name:hover {
+      color: #45b65e;
+      background-color: #f9f9f9; }
 
 /*# sourceMappingURL=kingsroad.css.map */
