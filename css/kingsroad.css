@@ -3505,6 +3505,20 @@ body {
         color: #45b65e; }
   .top-bar .menu .user-profile {
     border-left: 1px solid #e6e6e6; }
+    .top-bar .menu .user-profile a {
+      position: relative; }
+      .top-bar .menu .user-profile a:hover {
+        background-color: #f9f9f9; }
+  .top-bar .menu .user-profile__name {
+    padding-right: 44px; }
+  .top-bar .menu .user-profile__avatar {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    width: 36px;
+    height: auto;
+    margin: -18px 0 0;
+    border-radius: 3px; }
   .top-bar .menu > li > .site-name {
     padding: 0 20px;
     font-family: "Montserrat", sans-serif;
