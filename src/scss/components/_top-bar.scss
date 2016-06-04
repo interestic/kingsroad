@@ -1,5 +1,5 @@
 .top-bar {
-  $line-height: $topbar-height - 1;
+  $line-height: $topbar-height - 2;
   height: $topbar-height;
   padding: 0;
   border-bottom: 1px solid $border-color;
@@ -46,13 +46,12 @@
     font-family: $font-family-primary;
     font-size: 1.4em;
     font-weight: bold;
-    line-height: $line-height - 2;
-    color: $color-black;
+    line-height: $line-height - 1;
+    color: $brand-color;
     letter-spacing: -.03em;
     border-right: 1px solid $border-color;
     transition: $transition-hover;
     &:hover {
-      color: $brand-color;
       background-color: $tob-bar-hover;
     }
   }

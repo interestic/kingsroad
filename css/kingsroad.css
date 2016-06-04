@@ -3492,13 +3492,13 @@ body {
   padding: 0;
   border-bottom: 1px solid #e6e6e6; }
   .top-bar .menu > li {
-    height: 64px;
-    line-height: 64px; }
+    height: 63px;
+    line-height: 63px; }
     .top-bar .menu > li > a {
       display: block;
       height: 100%;
       padding: 0 20px;
-      line-height: 64px;
+      line-height: 63px;
       color: #000;
       transition: 0.2s all ease-out; }
       .top-bar .menu > li > a:hover {
@@ -3525,12 +3525,11 @@ body {
     font-size: 1.4em;
     font-weight: bold;
     line-height: 62px;
-    color: #000;
+    color: #45b65e;
     letter-spacing: -.03em;
     border-right: 1px solid #e6e6e6;
     transition: 0.2s all ease-out; }
     .top-bar .menu > li > .site-name:hover {
-      color: #45b65e;
       background-color: #f9f9f9; }
 
 /*# sourceMappingURL=kingsroad.css.map */
