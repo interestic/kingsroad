@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint:style",
+    "docs": "gulp docs",
     "deploy": "./scripts/deploy.sh"
   },
   "repository": {
