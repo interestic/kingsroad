@@ -18,9 +18,9 @@
   ],
   "keywords": ["html", "css", "foundation"],
   "authors": [
-    "rayfields <komeda@hivelocity.co.jp>"
+    "rayfields <raysbacker@gmail.com>"
   ],
-  "homepage": "https://gitlab.hivelocity.co.jp/adminize/adminize",
+  "homepage": "https://github.com/interestic/kingsroad#readme",
   "repository": {
     "type": "git",
     "url": "git@github.com/interestic/kingsroad.git"
